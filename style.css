@@ -103,11 +103,12 @@ li {
   font-size: 20px;
 }
 
-.fade {
+/* .fade {
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
-
+why dont fade work :(
+*/
 /* li animations */
 
 ul {
