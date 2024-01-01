@@ -49,40 +49,34 @@ img {
   border-radius: 5px 5px 0 0;
 }
 
-/* links */
-
-info {
-  background-color: red;
-  border-radius: 5px;
-}
-
-info2 {
-  background-color: dodgerblue;
-  border-radius: 5px;
-}
-
-info3 {
-  background-color: aqua;
-  border-radius: 5px;
-}
+/* Links animations */
 
 a {
-  background-color: white;
-  color: white;
-}
-
-/* links anims */
-
-a {
-  color: #000000;
+  color: #ffffff; /* Light blue for regular link color */
   text-decoration: none;
   transition: color 0.5s ease-in-out;
 }
 
-a:hover {
-  color: #ffffff;
-  background-color: black;
-  transition: background-color 0.5s ease-in-out;
+.link1:hover {
+  color: #f44336; /* Orange for link color on hover */
+  background-color: #000000; /* Dark gray background on hover */
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.link3:hover {
+  color: #2986cc; /* Orange for link color on hover */
+  background-color: #000000; /* Dark gray background on hover */
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.link2:hover {
+  color: #351c75; /* Orange for link color on hover */
+  background-color: #000000; /* Dark gray background on hover */
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.cc {
+  text-decoration: underline;
 }
 
 /* misc properties */
@@ -108,7 +102,6 @@ li {
   transition: opacity 1s ease-in-out;
 }
 */
-
 /* li animations */
 
 ul {
