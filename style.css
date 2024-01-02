@@ -63,14 +63,20 @@ a {
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
 
+.link2:hover {
+  color: #351c75; /* Orange for link color on hover */
+  background-color: #000000; /* Dark gray background on hover */
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
 .link3:hover {
   color: #2986cc; /* Orange for link color on hover */
   background-color: #000000; /* Dark gray background on hover */
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
 
-.link2:hover {
-  color: #351c75; /* Orange for link color on hover */
+.link4:hover {
+  color: #f9b405; /* Orange for link color on hover */
   background-color: #000000; /* Dark gray background on hover */
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
