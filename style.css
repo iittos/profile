@@ -52,32 +52,32 @@ img {
 /* Links animations */
 
 a {
-  color: #ffffff; /* Light blue for regular link color */
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.5s ease-in-out;
 }
 
 .link1:hover {
-  color: #f44336; /* Orange for link color on hover */
-  background-color: #000000; /* Dark gray background on hover */
+  color: #f44336;
+  background-color: #000000; 
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
-
+/*
 .link2:hover {
-  color: #351c75; /* Orange for link color on hover */
-  background-color: #000000; /* Dark gray background on hover */
+  color: #351c75; 
+  background-color: #000000; 
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
-
+*/
 .link3:hover {
-  color: #2986cc; /* Orange for link color on hover */
-  background-color: #000000; /* Dark gray background on hover */
+  color: #2986cc;
+  background-color: #000000; 
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
 
 .link4:hover {
-  color: #f9b405; /* Orange for link color on hover */
-  background-color: #000000; /* Dark gray background on hover */
+  color: #f9b405;
+  background-color: #000000; 
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
 
@@ -108,11 +108,12 @@ li {
   transition: opacity 1s ease-in-out;
 }
 */
+
 /* li animations */
 
 ul {
-  list-style-type: none; /* Remove default list styles */
-  padding: 0; /* Remove default padding */
+  list-style-type: none; 
+  padding: 0; 
 }
 
 li {
@@ -147,7 +148,7 @@ li::after {
   bottom: 0;
   left: 0;
   transform: translateY(100%);
-  transition: transform 0.5s ease-in-out 0.2s; /* Added delay of 0.2s */
+  transition: transform 0.5s ease-in-out 0.2s; 
 }
 
 li:hover::before {
@@ -157,4 +158,38 @@ li:hover::before {
 
 li:hover::after {
   transform: translateY(0);
+}
+
+/* card flip animation */
+
+.flip-card {
+  perspective: 1000px;
+  display: inline-block;
+  margin: 0;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  transform: rotateY(0deg);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.flip-card-back {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
 }
