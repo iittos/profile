@@ -59,7 +59,7 @@ a {
 
 .link1:hover {
   color: #f44336;
-  background-color: #000000; 
+  background-color: #000000;
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
 /*
@@ -71,13 +71,13 @@ a {
 */
 .link3:hover {
   color: #2986cc;
-  background-color: #000000; 
+  background-color: #000000;
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
 
 .link4:hover {
   color: #f9b405;
-  background-color: #000000; 
+  background-color: #000000;
   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
 
@@ -112,8 +112,8 @@ li {
 /* li animations */
 
 ul {
-  list-style-type: none; 
-  padding: 0; 
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
@@ -148,7 +148,7 @@ li::after {
   bottom: 0;
   left: 0;
   transform: translateY(100%);
-  transition: transform 0.5s ease-in-out 0.2s; 
+  transition: transform 0.5s ease-in-out 0.2s;
 }
 
 li:hover::before {
