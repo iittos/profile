@@ -7,8 +7,7 @@ body {
   scroll-behavior: smooth;
   height: 100vh;
   margin: 0;
-  scrollbar-width: thin;
-  scrollbar-color: transparent transparent;
+  overflow: auto;
   cursor: default;
   user-select: none;
 }
