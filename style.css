@@ -123,6 +123,7 @@ li {
   background: transparent;
   color: #ffffff;
   position: relative;
+  overflow: hidden;
 }
 
 li::before {
